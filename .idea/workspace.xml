@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61e48fe8-7efd-4cc1-b249-b5f266aca5f4" name="Default" comment="" />
+    <list default="true" id="61e48fe8-7efd-4cc1-b249-b5f266aca5f4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/blogServer/web/socket.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go" afterPath="$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blogServer/server.go" afterPath="$PROJECT_DIR$/src/blogServer/server.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blogServer/server_test.go" afterPath="$PROJECT_DIR$/src/blogServer/server_test.go" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,21 +22,71 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="server.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/blogServer/server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="171" column="53" lean-forward="false" selection-start-line="171" selection-start-column="53" selection-end-line="171" selection-end-column="53" />
+            <state relative-caret-position="285">
+              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createPost.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/createPost.js">
+      <file leaf-file-name="fileController.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="55" column="29" lean-forward="false" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state relative-caret-position="555">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="socket.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blogServer/web/socket.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/home.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blogServer/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/blogServer/server_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="633">
+              <caret line="173" column="23" lean-forward="true" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../gopkg.in/mgo.v2/session.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="3667" column="16" lean-forward="false" selection-start-line="3667" selection-start-column="0" selection-end-line="3668" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,64 +112,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="util.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="util.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/blogServer/util/util.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blogServer/user/user.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="127" column="49" lean-forward="true" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blogServer/user/auth.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="40" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="model.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blogServer/user/model.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileController.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="createPost.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blogServer/web/createPost.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-              <folding>
-                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,6 +157,9 @@
       <replace>SignUp</replace>
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -184,12 +192,13 @@
         <option value="$PROJECT_DIR$/src/blogServer/web/js/login.js" />
         <option value="$PROJECT_DIR$/src/blogServer/web/login.html" />
         <option value="$PROJECT_DIR$/src/blogServer/web/createPost.html" />
-        <option value="$PROJECT_DIR$/src/blogServer/server.go" />
         <option value="$PROJECT_DIR$/src/blogServer/util/logger.go" />
         <option value="$PROJECT_DIR$/src/blogServer/web/css/prototype.css" />
         <option value="$PROJECT_DIR$/src/blogServer/web2/page1.html" />
-        <option value="$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go" />
         <option value="$PROJECT_DIR$/src/blogServer/server_test.go" />
+        <option value="$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go" />
+        <option value="$PROJECT_DIR$/src/blogServer/server.go" />
+        <option value="$PROJECT_DIR$/src/blogServer/web/socket.html" />
       </list>
     </option>
   </component>
@@ -197,6 +206,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="1" />
   </component>
@@ -414,37 +424,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog_server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blogServer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -605,16 +585,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestHashing in server_test.go">
-    <configuration default="false" name="TestEmptyStruct in server_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
-      <module name="blog_server" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="blog_server/src/blogServer" />
-      <pattern value="^TestEmptyStruct$" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Go Test.TestSignUp in server_test.go">
     <configuration default="false" name="TestSignUp in server_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
       <module name="blog_server" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -649,6 +620,15 @@
       <kind value="PACKAGE" />
       <package value="blog_server/src/blogServer" />
       <pattern value="^TestHashing$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestIterations in server_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true">
+      <module name="blog_server" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="blog_server/src/blogServer" />
+      <pattern value="^TestIterations$" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -876,19 +856,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Test.TestEmptyStruct in server_test.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Test.TestSignUp in server_test.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Test.TestSignIn in server_test.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Test.TestGetUser in server_test.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Test.TestHashing in server_test.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Test.TestSignUp in server_test.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Test.TestSignIn in server_test.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Test.TestGetUser in server_test.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Test.TestHashing in server_test.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Test.TestIterations in server_test.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Test.TestHashing in server_test.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Test.TestGetUser in server_test.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Test.TestSignUp in server_test.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Test.TestSignIn in server_test.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Test.TestEmptyStruct in server_test.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Test.TestSignUp in server_test.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Test.TestIterations in server_test.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Test.TestHashing in server_test.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Test.TestGetUser in server_test.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Test.TestSignIn in server_test.go" />
       </list>
     </recent_temporary>
   </component>
@@ -906,34 +886,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestHashing_in_server_test_go - 2017.07.30 at 16h 36m 52s.xml">
-      <configuration name="TestHashing in server_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="TestHashing_in_server_test_go - 2017.07.30 at 16h 37m 04s.xml">
-      <configuration name="TestHashing in server_test.go" configurationId="GoTestRunConfiguration" />
-    </history-entry>
     <history-entry file="TestHashing_in_server_test_go - 2017.07.30 at 16h 37m 11s.xml">
       <configuration name="TestHashing in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
     <history-entry file="TestHashing_in_server_test_go - 2017.07.30 at 16h 37m 50s.xml">
       <configuration name="TestHashing in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSignIn_in_server_test_go - 2017.07.24 at 20h 15m 07s.xml">
-      <configuration name="TestSignIn in server_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestIterations_in_server_test_go - 2017.08.01 at 20h 24m 39s.xml">
+      <configuration name="TestIterations in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSignIn_in_server_test_go - 2017.07.24 at 20h 15m 16s.xml">
-      <configuration name="TestSignIn in server_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestIterations_in_server_test_go - 2017.08.01 at 20h 25m 41s.xml">
+      <configuration name="TestIterations in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSignIn_in_server_test_go - 2017.07.24 at 20h 15m 28s.xml">
-      <configuration name="TestSignIn in server_test.go" configurationId="GoTestRunConfiguration" />
+    <history-entry file="TestIterations_in_server_test_go - 2017.08.01 at 20h 28m 54s.xml">
+      <configuration name="TestIterations in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSignUp_in_server_test_go - 2017.07.24 at 20h 35m 14s.xml">
+    <history-entry file="TestIterations_in_server_test_go - 2017.08.01 at 20h 29m 08s.xml">
+      <configuration name="TestIterations in server_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSignUp_in_server_test_go - 2017.08.01 at 20h 25m 35s.xml">
       <configuration name="TestSignUp in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSignUp_in_server_test_go - 2017.07.25 at 16h 23m 56s.xml">
+    <history-entry file="TestSignUp_in_server_test_go - 2017.08.01 at 20h 27m 36s.xml">
       <configuration name="TestSignUp in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestSignUp_in_server_test_go - 2017.07.25 at 16h 24m 33s.xml">
+    <history-entry file="TestSignUp_in_server_test_go - 2017.08.01 at 20h 28m 20s.xml">
+      <configuration name="TestSignUp in server_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSignUp_in_server_test_go - 2017.08.01 at 20h 28m 59s.xml">
       <configuration name="TestSignUp in server_test.go" configurationId="GoTestRunConfiguration" />
     </history-entry>
   </component>
@@ -950,12 +930,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32003987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -991,8 +971,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32003987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32003987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1011,15 +991,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///usr/local/go/src/encoding/json/stream.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="65" column="38" lean-forward="false" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blogServer/web/home.html" />
     <entry file="file:///usr/local/go/src/builtin/builtin.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -1057,6 +1028,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,6 +1050,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1118,6 +1091,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="280" column="22" lean-forward="true" selection-start-line="280" selection-start-column="22" selection-end-line="280" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1165,13 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/about.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1194,13 +1161,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/blogServer/web/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blogServer/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
@@ -1270,26 +1230,10 @@
     <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/jquery.bootstrap.wizard.min.js" />
     <entry file="file://$PROJECT_DIR$/src/blogServer/web2/page1.html" />
     <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/jqBootstrapValidation.js" />
-    <entry file="file://$PROJECT_DIR$/src/blogServer/server_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="162" column="30" lean-forward="false" selection-start-line="162" selection-start-column="30" selection-end-line="162" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blogServer/user/model.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="28" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -1299,7 +1243,7 @@
         <state relative-caret-position="225">
           <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
           <folding>
-            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1315,15 +1259,7 @@
     <entry file="file://$PROJECT_DIR$/src/blogServer/user/user.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="573">
-          <caret line="127" column="49" lean-forward="true" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blogServer/server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="171" column="53" lean-forward="false" selection-start-line="171" selection-start-column="53" selection-end-line="171" selection-end-column="53" />
+          <caret line="127" column="49" lean-forward="false" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
           <folding />
         </state>
       </provider>
@@ -1355,7 +1291,63 @@
     <entry file="file://$PROJECT_DIR$/src/blogServer/util/util.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../gopkg.in/mgo.v2/session.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="3667" column="16" lean-forward="false" selection-start-line="3667" selection-start-column="0" selection-end-line="3668" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blogServer/api_wrapper/fileController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blogServer/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="166" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blogServer/server_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="633">
+          <caret line="173" column="23" lean-forward="true" selection-start-line="173" selection-start-column="23" selection-end-line="173" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blogServer/web/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blogServer/web/socket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/blogServer/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
           <folding />
         </state>
       </provider>

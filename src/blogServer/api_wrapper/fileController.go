@@ -36,6 +36,10 @@ func ServeHelperFile(w http.ResponseWriter, r *http.Request) {
 		http.ServeFile(w,r,"web/signup.html")
 	}
 
+	if (path == "/socket.html"){
+		http.ServeFile(w,r,"web/socket.html")
+	}
+
 
 
 	pathSplits := strings.Split(r.URL.Path[1:], "/")

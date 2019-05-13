@@ -11,6 +11,7 @@ import(
 	"blog_server/src/blogServer/user"
 	"io/ioutil"
 	"os"
+	"golang.org/x/net/websocket"
 )
 
 var mongoSession = mongo.GetMongoSession()
@@ -19,6 +20,29 @@ var BlogPostController = blogposts.NewBlogPostController(mongoSession)
 var UserController = user.NewUserController(mongoSession)
 
 var ServerLogger = util.NewLogger(ioutil.Discard, os.Stdout, os.Stdout, os.Stderr)
+
+func Echo(ws *websocket.Conn) {
+	var err error
+
+	for {
+		var reply string
+
+		if err = websocket.Message.Receive(ws, &reply); err != nil {
+			fmt.Println("Can't receive")
+			break
+		}
+
+		fmt.Println("Received back from client: " + reply)
+
+		msg := "Received:  " + reply
+		fmt.Println("Sending to client: " + msg)
+
+		if err = websocket.Message.Send(ws, msg); err != nil {
+			fmt.Println("Can't send")
+			break
+		}
+	}
+}
 
 func main(){
 	http.HandleFunc("/api/createPost", func(w http.ResponseWriter, r *http.Request){
@@ -187,6 +211,8 @@ func main(){
 		ServerLogger.Debug(string(jsonForm))
 		fmt.Fprintf(w, string(jsonForm))
 	})
+
+	http.Handle("/socket", websocket.Handler(Echo))
 
 	http.HandleFunc("/",api_wrapper.ServeHelperFile)
 

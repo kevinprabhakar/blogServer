@@ -11,6 +11,8 @@ import(
 	"blog_server/src/blogServer/blogposts"
 	"github.com/PuerkitoBio/goquery"
 	"blog_server/src/blogServer/user"
+	"bitbucket.org/rajeevpra/itip/mongo"
+	"gopkg.in/mgo.v2/bson"
 )
 
 func TestCreatePost(t *testing.T){
@@ -105,7 +107,7 @@ func TestEmptyStruct(t *testing.T){
 }
 
 func TestSignUp(t *testing.T){
-	params := user.SignUpParams{"kevin.surya@gmail.com","bottle","Kevin Prabhakar"}
+	params := user.SignUpParams{"kevin.sury1a@gmail.com","bottle","Kevin Prabhakar"}
 	urlParams := url.Values{}
 
 	jsonParams, _ := json.Marshal(params)
@@ -163,4 +165,27 @@ func TestHashing(t *testing.T){
 	fmt.Println(user.HashPassword("jprabhakar@gmail.com"))
 	fmt.Println(user.HashPassword("bottle1235"))
 
+}
+
+func TestIterations(t *testing.T){
+	iter := mongo.GetUserCollection(mongo.GetMongoDB(mongoSession)).Find(nil).Sort("$natural").Tail(5*time.Second)
+
+	var result user.User
+	var lastId bson.ObjectId
+
+	for {
+		for iter.Next(&result) {
+			fmt.Println(result.Id)
+			lastId = result.Id
+		}
+		if iter.Err() != nil {
+			iter.Close()
+		}
+		if iter.Timeout() {
+			continue
+		}
+		query := mongo.GetUserCollection(mongo.GetMongoDB(mongoSession)).Find(bson.M{"_id": bson.M{"$gt": lastId}})
+		iter = query.Sort("$natural").Tail(5 * time.Second)
+	}
+	iter.Close()
 }
